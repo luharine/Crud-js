@@ -19,7 +19,7 @@ router.get('/get',async (req,res)=>{
     }
 })
 
-router.post('/',async(req,res)=>
+router.post('/post',async(req,res)=>
 {
     let alien = new Alien({
         name:req.body.name,
